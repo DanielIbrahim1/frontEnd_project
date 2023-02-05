@@ -63,7 +63,7 @@ const Product = () => {
                   <div className="product-wrap">
 
                     <Link key={prod._id} to={`/${prod._id}`} className="">
-                      <img className="img-fluid w-100 mb-3 img-first" src={`http://127.0.0.1:8000/static/images/${prod.photo}`} />
+                      <img className="img-fluid w-100 mb-3 img-first" src={`https://back-project.onrender.com/static/images/${prod.photo}`} />
                     </Link>
 
                   </div>
@@ -124,7 +124,7 @@ const Product = () => {
 
                   <div className="product-wrap">
                     <Link key={prod._id} to={`/${prod._id}`} className="btn">
-                      <img className="img-fluid w-100 mb-3 img-first" src={`http://127.0.0.1:8000/static/images/${prod.photo}`} />
+                      <img className="img-fluid w-100 mb-3 img-first" src={`https://back-project.onrender.com/static/images/${prod.photo}`} />
                     </Link>
                   </div>
 

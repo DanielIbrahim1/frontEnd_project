@@ -116,7 +116,7 @@ export function StaffProducts() {
           < div className="col-lg-2 col-12 col-md-6 col-sm-6 mb-5" >
             <div className="cat-box">
               <div className="product-wrap">
-                <img className="photo-icon" src={`http://127.0.0.1:8000/static/images/${prod.photo}`} />
+                <img className="photo-icon" src={`https://back-project.onrender.com/static/images/${prod.photo}`} />
               </div>
 
               <div className="product-info">

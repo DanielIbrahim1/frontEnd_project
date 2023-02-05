@@ -38,7 +38,7 @@ const Header = () => {
       <nav className="navbar navbar-expand-lg navbar-light bg-white w-100 navigation" id="navbar">
         <div className="container">
           <Link className="navbar-brand font-weight-bold" to={{ pathname: "/" }}>
-          <img src="http://127.0.0.1:8000/static/images/new-logo3.png"></img></Link>
+          <img src="https://back-project.onrender.com/static/images/new-logo3.png"></img></Link>
           {/* Home page */}
 
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar"
@@ -139,7 +139,7 @@ const Header = () => {
                 <div>   
                     <div class="media">
 
-                      <img class="media-object img-fluid mr-3" src={`http://127.0.0.1:8000/static/images/${item.photo}`} alt="image" />
+                      <img class="media-object img-fluid mr-3" src={`https://back-project.onrender.com/static/images/${item.photo}`} alt="image" />
 
                       <div class="media-body">
                         <h6>{item.product}</h6>
@@ -184,7 +184,7 @@ const Header = () => {
               </Link>} </li>
             {logged === true && <i className="font-weight-bold" ><u>Hello, {loggedUsername}!</u></i>} &nbsp;
             {logged && <Link to="/" onClick={() => dispatch(logout())}>
-              <img className="media-object img-fluid mr-3" src={`http://127.0.0.1:8000/static/images/check-out.png`} alt="image" />
+              <img className="media-object img-fluid mr-3" src={`https://back-project.onrender.com/static/images/check-out.png`} alt="image" />
             </Link>}
 
           </ul>

@@ -1,9 +1,9 @@
 // A mock function to mimic making an async request for data
 import axios from "axios";
 
-const ADD_ORDER_URL = "http://127.0.0.1:8000/checkout/";
-const GET_ORDERS_URL = "http://127.0.0.1:8000/allorders/";
-const GET_ORDER_DETAILS_URL = "http://127.0.0.1:8000/getorderdetails/";
+const ADD_ORDER_URL = "https://back-project.onrender.com/checkout/";
+const GET_ORDERS_URL = "https://back-project.onrender.com/allorders/";
+const GET_ORDER_DETAILS_URL = "https://back-project.onrender.com/getorderdetails/";
 
 export const checkout = (myCart, token) => {
   return new Promise((resolve) =>

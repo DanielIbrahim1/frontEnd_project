@@ -21,7 +21,7 @@ function Home() {
             <div className="main-slider slider slick-initialized slick-slider">
 
                 <div class="slider-item" style={{
-                    backgroundImage: "url('http://127.0.0.1:8000/static/images/home-page.png')",
+                    backgroundImage: "url('https://back-project.onrender.com/static/images/home-page.png')",
                     backgroundPosition: "50%", backgroundRepeat: "no-repeat"
                 }}>
                     <div class="container">

@@ -122,7 +122,7 @@ export function Order() {
                                 {orderDetail.map((orDetail) => (
                                   <tr className="cart_item">
                                     <td className="cart_item" data-title="Thumbnail">
-                                      <img className="photo-icon" src={`http://127.0.0.1:8000/static/images/${orDetail.photo}`} />
+                                      <img className="photo-icon" src={`https://back-project.onrender.com/static/images/${orDetail.photo}`} />
                                     </td>
 
                                     <td key={order_id} className="cart_item">

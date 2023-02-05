@@ -60,7 +60,7 @@ const Cart = () => {
                       <tbody>
                         <tr className="cart_item">
                           <td className="product-thumbnail" data-title="Thumbnail">
-                            <img src={`http://127.0.0.1:8000/static/images/${item.photo}`} class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" />
+                            <img src={`https://back-project.onrender.com/static/images/${item.photo}`} class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" />
                           </td>
 
                           {/* Cart loop */}

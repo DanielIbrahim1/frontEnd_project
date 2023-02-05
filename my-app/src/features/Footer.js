@@ -15,13 +15,13 @@ function Footer() {
                                 <h4 class="mb-4">Pet-Shop
                                 <li class="list-inline-item">
                                             <a href="https://github.com/DanielIbrahim1/Final_project">
-                                                <img className="footer-icon" src="http://127.0.0.1:8000/static/images/gitHub.jpeg"></img>
+                                                <img className="footer-icon" src="https://back-project.onrender.com/static/images/gitHub.jpeg"></img>
                                             </a></li> </h4>
 
                                 <p class="lead">Developed by :
                                     <div class="col-lg-8">Daniel ibrahim
                                         <a href="https://www.linkedin.com/in/daniel-ibrahim-ba08b3226/">
-                                            <img className="footer-icon" src="http://127.0.0.1:8000/static/images/linkedIn.jpeg"></img>
+                                            <img className="footer-icon" src="https://back-project.onrender.com/static/images/linkedIn.jpeg"></img>
                                         </a>
 
                                        
@@ -29,7 +29,7 @@ function Footer() {
                                     </div>
                                     <div class="col-lg-8">Roy abramovich<li class="list-inline-item">
                                         <a href="https://www.linkedin.com/in/roy-abramovich-440b25152/">
-                                            <img className="footer-icon" src="http://127.0.0.1:8000/static/images/linkedIn.jpeg"></img>
+                                            <img className="footer-icon" src="https://back-project.onrender.com/static/images/linkedIn.jpeg"></img>
                                         </a></li>
                                     </div> </p>
                                     
@@ -79,37 +79,6 @@ function Footer() {
                 </div>
             </footer>
 
-
-            {/* <div class="footer-btm py-4 ">
-                <div class="container">
-                    <div class="row ">
-                        <div class="col-lg-6">
-                            <p class="copyright mb-0 ">@ Copyright Reserved to Daniel & Roy</p>
-                        </div>
-                        <div class="col-lg-6">
-                            <ul class="list-inline mb-0 footer-btm-links text-lg-right mt-2 mt-lg-0">
-                                <li class="list-inline-item">
-                                    <a href="https://www.linkedin.com/in/daniel-ibrahim-ba08b3226/">
-                                        D.I
-                                        <br></br>
-                                        <img className="footer-icon" src="http://127.0.0.1:8000/static/images/linkedIn.jpeg"></img>
-                                    </a></li>
-                                <li class="list-inline-item">
-                                    <a href="https://www.linkedin.com/in/roy-abramovich-440b25152/">
-                                        R.A
-                                        <br></br>
-                                        <img className="footer-icon" src="http://127.0.0.1:8000/static/images/linkedIn.jpeg"></img>
-                                    </a></li>
-
-                                <li class="list-inline-item">
-                                     <a href="https://github.com/DanielIbrahim1/Final_project">
-                                    <img className="footer-icon" src="http://127.0.0.1:8000/static/images/gitHub.jpeg"></img>
-                                </a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div> */}
         </div>
     );
 }

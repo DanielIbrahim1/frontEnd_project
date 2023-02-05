@@ -1,7 +1,7 @@
 import axios from "axios";
-const REGISTER_URL = "http://127.0.0.1:8000/register/";
-const LOGIN_URL = "http://127.0.0.1:8000/login/";
-const REFRESH_URL = "http://127.0.0.1:8000/login/refresh/";
+const REGISTER_URL = "https://back-project.onrender.com/register/";
+const LOGIN_URL = "https://back-project.onrender.com/login/";
+const REFRESH_URL = "https://back-project.onrender.com/login/refresh/";
 
 export function register(User_Details) {
   return new Promise((resolve) =>

@@ -1,10 +1,10 @@
 import axios from "axios";
 
-const GET_PRODUCT_URL = "http://127.0.0.1:8000/getproduct/";
-const GET_PRODUCT_URL_per = "http://127.0.0.1:8000/getproductper/";
-const ADD_PRODUCT_URL = "http://127.0.0.1:8000/addproduct/";
-const UPDATE_PRODUCT_URL = "http://127.0.0.1:8000/updateproduct/";
-const DELETE_PRODUCT_URL = "http://127.0.0.1:8000/delteproduct/";
+const GET_PRODUCT_URL = "https://back-project.onrender.com/getproduct/";
+const GET_PRODUCT_URL_per = "https://back-project.onrender.com/getproductper/";
+const ADD_PRODUCT_URL = "https://back-project.onrender.com/addproduct/";
+const UPDATE_PRODUCT_URL = "https://back-project.onrender.com/updateproduct/";
+const DELETE_PRODUCT_URL = "https://back-project.onrender.com/delteproduct/";
 
 export function getProduct(category_id) {
   return new Promise((resolve) =>
